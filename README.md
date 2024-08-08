@@ -10,9 +10,11 @@ This AI uses architectural styles to identify buildings and recognize what time 
 1. Download the Jetson-Inference library and Python3 and make sure you have a Jetson Nano.
 2. Activate the Nano and connect it to your computer.
 3. Create a folder with any name in your Nano.
-4. Go to https://drive.google.com/file/d/1i0aO-qSefy1qC_GNcGZNhAStCvjSWuyP/view?usp=sharing and download into the folder you just created.
-5. Also download https://drive.google.com/file/d/1NIkvHchZjkA2HPYxHyTlDC6G8mFN-Rfy/view?usp=sharing
+4. Go to the ResNet-18 model and download into the folder you just created.
+   https://drive.google.com/file/d/1i0aO-qSefy1qC_GNcGZNhAStCvjSWuyP/view?usp=sharing 
+5. Also download the classification labels to the same folder.
+   https://drive.google.com/file/d/1NIkvHchZjkA2HPYxHyTlDC6G8mFN-Rfy/view?usp=sharing
 6. Create a subfolder called images.
 7. Download any images you want to use into that folder.
-8. Go back to the bigger folder to run
-$ imagenet.py --model=resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=labels.txt “images/NAME_OF_FILE.jpg” NAME_OF_OUTPUT.jpg
+8. Go back to the bigger folder to run this in the command terminal:
+   $ imagenet.py --model=resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=labels.txt “images/NAME_OF_FILE.jpg” NAME_OF_OUTPUT.jpg
