@@ -11,9 +11,9 @@ This AI uses architectural styles to identify buildings and recognize what time 
 2. Activate the Nano and connect it to your computer.
 3. Create a folder with any name in your Nano.
 4. Go to the ResNet-18 model and download into the folder you just created.
-   https://drive.google.com/file/d/1i0aO-qSefy1qC_GNcGZNhAStCvjSWuyP/view?usp=sharing 
+>   https://drive.google.com/file/d/1i0aO-qSefy1qC_GNcGZNhAStCvjSWuyP/view?usp=sharing 
 5. Also download the classification labels to the same folder.
-   https://drive.google.com/file/d/1NIkvHchZjkA2HPYxHyTlDC6G8mFN-Rfy/view?usp=sharing
+ >  https://drive.google.com/file/d/1NIkvHchZjkA2HPYxHyTlDC6G8mFN-Rfy/view?usp=sharing
 6. Create a subfolder called images.
 7. Download any images you want to use into that folder.
 8. Go back to the bigger folder to run this in the command terminal:
